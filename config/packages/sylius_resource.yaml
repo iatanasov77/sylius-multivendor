@@ -1,0 +1,9 @@
+sylius_resource:
+    resources:
+        odiseo_sylius_vendor_plugin.vendor:
+            classes:
+                #model: Odiseo\SyliusVendorPlugin\Entity\Vendor
+                model: App\Entity\SyliusVendorPlugin\Vendor
+                
+
+
