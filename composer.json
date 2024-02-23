@@ -1,14 +1,17 @@
 {
+    "name": "vankosoft/sylius-multivendor",
     "type": "project",
+    "description": "Vankosoft Catalog Project",
     "keywords": [
         "symfony",
         "sylius",
         "distribution",
         "ecommerce",
         "cart",
-        "shopping"
+        "shopping",
+        "multivendor"
     ],
-    "homepage": "https://sylius.com",
+    "homepage": "http://vankosoft.org",
     "license": "proprietary",
     "authors": [
         {
@@ -19,6 +22,9 @@
         },
         {
             "name": "Community contributions"
+        },
+        {
+            "name": "Ivan I. Atanasov"
         }
     ],
     "require": {
