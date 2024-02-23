@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: true
+
+#     vs_application.fixture.listener.my_sample_data_purger:
+#         class: App\DataFixtures\Listener\MySampleDataPurgerListener
+#         arguments: 
+#             - '@doctrine'
+#         tags:
+#             - 'sylius_fixtures.listener'

@@ -1,0 +1,35 @@
+##########################################################################################
+# Manual: https://www.kreationsbyran.se/customize-admin-interface-with-grids-in-sylius/
+##########################################################################################
+sylius_grid:
+    grids:
+        odiseo_sylius_vendor_plugin_admin_vendor:
+            fields:
+                products:
+                    type: twig
+                    label: app.ui.products
+                    options:
+                        template: "Vendor/Grid/Field/products.html.twig"
+
+        sylius_admin_product:
+            fields:
+                vendor:
+                    type: twig
+                    label: odiseo_sylius_vendor_plugin.ui.vendor
+                    #path: 'vendor'
+                    sortable: vendor.name
+                    options:
+                        template: "Product/Grid/Field/vendor.html.twig"
+                        
+            filters:
+                vendor:
+                    type: entity
+                    label: odiseo_sylius_vendor_plugin.ui.vendor
+                    form_options:
+                        class: "%odiseo_sylius_vendor_plugin.model.vendor.class%"
+                        choice_name: name
+                        choice_value: id
+                    options:
+                        field: vendor.id
+
+

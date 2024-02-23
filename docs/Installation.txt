@@ -1,0 +1,27 @@
+####################################################################################
+# Used Bundles: https://github.com/odiseoteam/SyliusVendorPlugin
+#               https://odiseo.io/plugins-and-bundles/premium/sylius-mvm-plugin
+####################################################################################
+
+composer create-project sylius/sylius-standard ProjectFolder
+cd ProjectFolder
+
+composer require odiseoteam/sylius-vendor-plugin --no-scripts
+# Follow Installation Instructions from:
+#   https://github.com/odiseoteam/SyliusVendorPlugin/blob/master/doc/installation.md
+
+nvm use 16.13.0
+yarn install --no-bin-links
+yarn build
+
+bin/console sylius:install --fixture-suite=sampledata
+
+
+
+
+
+bin/console sylius:install
+
+# Truncate tables: sylius_channel, sylius_currency, sylius_locale
+bin/console sylius:fixtures:load sampledata
+
