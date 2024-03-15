@@ -37,6 +37,7 @@
         "sylius/sylius": "^1.12.11",
         "sylius/paypal-plugin": "^1.5",
         
+        "sylius/bootstrap-theme": "^1.0",
         "odiseoteam/sylius-vendor-plugin": "^1.8",
         "vankosoft/sylius-multivendor-bundle": "^0.1"
     },

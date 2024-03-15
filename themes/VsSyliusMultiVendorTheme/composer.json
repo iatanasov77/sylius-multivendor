@@ -1,0 +1,17 @@
+{
+    "name": "vankosoft/sylius-multivendor-theme",
+    "description": "Sylius MultiVendor Theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Potter",
+            "email": "prongs@example.com"
+        }
+    ],
+    "extra": {
+        "sylius-theme": {
+            "title": "Bootstrap child theme",
+            "parents": [ "sylius/bootstrap-theme" ]
+        }
+    }
+}
