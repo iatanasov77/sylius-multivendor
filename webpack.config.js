@@ -86,4 +86,22 @@ appAdminConfig.resolve.alias['sylius/bundle'] = syliusBundles;
 appAdminConfig.externals = Object.assign({}, appAdminConfig.externals, { window: 'window', document: 'document' });
 appAdminConfig.name = 'app.admin';
 
-module.exports = [shopConfig, adminConfig, appShopConfig, appAdminConfig];
+
+//=================================================================================================
+
+/**
+ *  VS Sylius MultiVendor Theme
+ */
+Encore.reset();
+const VsSyliusMultiVendorThemeConfig   = require('./themes/VsSyliusMultiVendorTheme/webpack.config');
+
+//=================================================================================================
+
+
+module.exports = [
+    shopConfig,
+    adminConfig,
+    appShopConfig,
+    appAdminConfig,
+    VsSyliusMultiVendorThemeConfig
+];
