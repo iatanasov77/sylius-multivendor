@@ -250,6 +250,7 @@ sylius_shop:
         include_all_descendants: true
 
 sylius_theme:
+    legacy_mode: true # for sylius 1.9, 1.10, 1.11, 1.12
     sources:
         filesystem:
             #scan_depth: 1

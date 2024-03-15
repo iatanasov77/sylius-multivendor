@@ -1,8 +1,8 @@
 const Encore = require( '@symfony/webpack-encore' );
 
 Encore
-    .setOutputPath( 'public/vs-sylius-multivendor-theme' )
-    .setPublicPath( '/vs-sylius-multivendor-theme' )
+    .setOutputPath( 'public/build/vs-sylius-multivendor-theme' )
+    .setPublicPath( '/build/vs-sylius-multivendor-theme' )
   
     .disableSingleRuntimeChunk()
     .cleanupOutputBeforeBuild()

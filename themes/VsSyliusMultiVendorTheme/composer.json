@@ -4,13 +4,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "James Potter",
-            "email": "prongs@example.com"
+            "name": "Ivan I. Atanasov",
+            "email": "i.atanasov77@gmail.com"
         }
     ],
     "extra": {
         "sylius-theme": {
-            "title": "Bootstrap child theme",
+            "title": "VS Sylius MultiVendor Theme",
             "parents": [ "sylius/bootstrap-theme" ]
         }
     }
