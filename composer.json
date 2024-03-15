@@ -1,7 +1,7 @@
 {
     "name": "vankosoft/sylius-multivendor",
     "type": "project",
-    "description": "Vankosoft Catalog Project",
+    "description": "Sylius Multi-Vendor Project",
     "keywords": [
         "symfony",
         "sylius",
@@ -29,12 +29,16 @@
     ],
     "require": {
         "php": "^8.0",
-        "odiseoteam/sylius-vendor-plugin": "^1.8",
-        "sylius/paypal-plugin": "^1.5",
-        "sylius/sylius": "^1.12.11",
+        
         "symfony/dotenv": "^5.4 || ^6.0",
         "symfony/flex": "^2.1",
-        "symfony/runtime": "^5.4 || ^6.0"
+        "symfony/runtime": "^5.4 || ^6.0",
+        
+        "sylius/sylius": "^1.12.11",
+        "sylius/paypal-plugin": "^1.5",
+        
+        "odiseoteam/sylius-vendor-plugin": "^1.8",
+        "vankosoft/sylius-multivendor-bundle": "^0.1"
     },
     "require-dev": {
         "behat/behat": "^3.7",

@@ -62,4 +62,6 @@ return [
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
     
     Odiseo\SyliusVendorPlugin\OdiseoSyliusVendorPlugin::class => ['all' => true],
+    Vankosoft\AgentBundle\VSAgentBundle::class => ['all' => true],
+    Vankosoft\SyliusMultiVendor\SyliusMultiVendorBundle::class => ['all' => true],
 ];
