@@ -34,12 +34,13 @@
         "symfony/flex": "^2.1",
         "symfony/runtime": "^5.4 || ^6.0",
         
+        "api-platform/core": "2.7.15",
         "sylius/sylius": "^1.12.11",
         "sylius/paypal-plugin": "^1.5",
         
         "sylius/bootstrap-theme": "^1.0",
         "odiseoteam/sylius-vendor-plugin": "^1.8",
-        "vankosoft/sylius-multivendor-bundle": "^0.1"
+        "vankosoft/sylius-multivendor-bundle": "dev-develop"
     },
     "require-dev": {
         "behat/behat": "^3.7",

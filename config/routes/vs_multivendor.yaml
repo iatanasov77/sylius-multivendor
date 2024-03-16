@@ -1,0 +1,4 @@
+vankosoft_sylius_multivendor_dashboard:
+    resource: "@SyliusMultiVendorBundle/Resources/config/routing/dashboard.yaml"
+
+
